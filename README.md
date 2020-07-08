@@ -55,3 +55,23 @@ ou
 
 @Value("#{environment['spring.datasource.username']}")
 private String username;
+
+No Ubuntu basta fazer esse o procedimento abaixo para configurar as tecla (/?°) nos notebooks IMB/Lenovo:
+
+Execute seguinte comando no TERMINAL:
+
+$ sudo dpkg-reconfigure keyboard-configuration
+
+Configure o teclado selecionando as seguintes opções:
+
+Modelo do teclado: IBM ThinkPad R60/R61/T61
+
+País de origem para o teclado: Portuguese (Brazil)
+
+Layout do teclado: Portuguese (Brazil)
+
+Tecla para funcionar como AltGr: O padrão para o layout de teclado
+
+Tecla Compose: Sem tecla compose
+
+Usar Control+Alt+Backspace para terminar o servidor X?: <não>
